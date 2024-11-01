@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9ccff1f-243e-48e1-970a-d391686c1501" name="Changes" comment="" />
+    <list default="true" id="b9ccff1f-243e-48e1-970a-d391686c1501" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/Article/Controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/Article/Domain/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/Article/Domain/ArticleCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/Article/Repository/ArticleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/Article/Service/ArticleResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/Article/Service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/Board/Controller/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/Board/Domain/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/Board/Domain/BoardCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/Board/Repository/BoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/Board/Service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/Comment/Domain/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/Comment/Domain/CommentCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/Comment/Repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/Comment/Service/CommentResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/Comment/Service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/Hello/Controller/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/User/Controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/User/Domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/User/Domain/UserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/User/Repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/User/Service/UserResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/User/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,14 +43,52 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demoBoard" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2o9CHNfisUM4cCHr8I7jsT3M8OG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,21 +96,36 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.DemoBoardApplication.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.Build demoBoard.executor": "Run",
+    "Gradle.demoBoard [:com.naver.dcancer.demoBoard.DemoBoardApplication.main()].executor": "Run",
     "Gradle.demoBoard [:com.naver.dcancer.demoSpring.DemoSpringApplication.main()].executor": "Run",
+    "Gradle.demoboard [:com.naver.dcancer.demoBoard.DemoBoardApplication.main()].executor": "Run",
+    "Gradle.demoboard.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/dewey/Git/demoboard/src/main/java/com/naver/dcancer/demoBoard/Article",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/naver/dcancer/demoBoard/Article" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.naver.dcancer.demoBoard.Comment.Repository" />
+      <recent name="com.naver.dcancer.demoBoard.Board.Service" />
       <recent name="com.naver.dcancer.demoSpring" />
       <recent name="com.naver.dcancer.demoSpring.Board" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoBoardApplication">
+  <component name="RunManager">
     <configuration name="DemoBoardApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.naver.dcancer.demoBoard.DemoBoardApplication" />
+      <module name="demoBoard.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.naver.dcancer.demoBoard.*" />
@@ -58,36 +136,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoSpringApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.naver.dcancer.demoSpring.DemoSpringApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.naver.dcancer.demoSpring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoSpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.naver.dcancer.demoSpring.DemoSpringApplication" />
-      <module name="demoSpring.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.naver.dcancer.demoSpring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DemoBoardApplication" />
-        <item itemvalue="Application.DemoSpringApplication (1)" />
-        <item itemvalue="Application.DemoSpringApplication" />
       </list>
     </recent_temporary>
   </component>
